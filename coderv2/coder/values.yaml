@@ -1,8 +1,8 @@
 # coder -- Primary configuration for `coder server`.
 coder:
-  env:
-  - name: "CODER_ACCESS_URL"
-    value: "https://coder.example.com"
+  env: []
+  # - name: "CODER_ACCESS_URL"
+  #   value: "https://coder.example.com"
   # coder.image -- The image to use for Coder.
   image:
     # coder.image.repo -- The repository of the image.
